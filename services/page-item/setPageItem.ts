@@ -8,6 +8,7 @@ export default async function setPageItem(
   pageId: string
 ): Promise<boolean> {
   try {
+    data.updatedAt = new Date();
     const path = `projects/${projectId}/pages/${pageId}/page-items/${data.id}`;
     const docRef = doc(getFirestore(), path);
     await setDoc(docRef, data.toJSON(), { merge: true });

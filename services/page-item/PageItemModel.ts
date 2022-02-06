@@ -1,7 +1,7 @@
 export default class PageItemModel<TProperty = any> {
   constructor(
     public id: string,
-    public type: string,
+    public type: PageItemType,
     public properties: TProperty,
     public createdAt: Date = new Date(),
     public updatedAt: Date = new Date()
@@ -36,4 +36,12 @@ export default class PageItemModel<TProperty = any> {
       this.updatedAt
     );
   }
+}
+
+export enum PageItemType {
+  ShortTextInput = "ShortTextInput",
+  LongTextInput = "LongTextInput",
+  SingleSelectMultiChoice = "SingleSelectMultiChoice",
+  MultiSelectMultiChoice = "MultiSelectMultiChoice",
+  YesNoQuestion = "YesNoQuestion",
 }
