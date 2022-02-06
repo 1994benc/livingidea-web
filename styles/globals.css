@@ -27,7 +27,7 @@
 }
 
 .card {
-  @apply border cursor-pointer transition-all hover:bg-living-lightblue border-living-lightgray rounded  px-6 py-5;
+  @apply border cursor-pointer transition-all bg-living-lightgray hover:bg-living-lightblue border-living-lightgray rounded  px-6 py-5;
 }
 
 .input {

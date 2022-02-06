@@ -1,7 +1,34 @@
+import { TrashIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import useProjects from "../../services/project/useProjects";
+
+function Card(props: {
+  title: string;
+  description: string;
+  onDelete: (e: any) => void;
+}) {
+  return (
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      className="card relative"
+      whileTap={{
+        scale: 0.8,
+      }}
+    >
+      <div className="font-bold mb-2 text-living-blue">{props.title}</div>
+      {props.description && (
+        <div className="text-sm text-gray-400">{props.description}</div>
+      )}
+    </motion.div>
+  );
+}
 
 export default function MyOwnProjects() {
   const projects = useProjects("owned");
@@ -24,25 +51,13 @@ export default function MyOwnProjects() {
         {projects.map((project) => (
           <Link key={project.id} href={`/projects/${project.id}`}>
             <a>
-              <motion.div
-                initial={{
-                  opacity: 0,
+              <Card
+                title={project.name}
+                description={project.description || "✍️ No description"}
+                onDelete={() => {
+                  console.log("delete");
                 }}
-                animate={{
-                  opacity: 1,
-                }}
-                className="card"
-                whileTap={{
-                  scale: 0.8,
-                }}
-              >
-                <div className="font-bold mb-2 text-living-blue">
-                  {project.name}
-                </div>
-                <div className="text-sm text-gray-400">
-                  {project.description || "✍️ No description"}
-                </div>
-              </motion.div>
+              ></Card>
             </a>
           </Link>
         ))}
