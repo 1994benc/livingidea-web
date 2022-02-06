@@ -8,6 +8,7 @@ import {
   query,
   where,
   Query,
+  orderBy,
 } from "firebase/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { getAuth } from "firebase/auth";
@@ -22,16 +23,29 @@ export default function useProjects(
     const collectionRef = collection(getFirestore(), "projects");
     let q: Query;
     if (type === "owned" && user) {
-      q = query(collectionRef, where("owner", "==", user?.uid));
+      q = query(
+        collectionRef,
+        where("owner", "==", user?.uid),
+        orderBy("createdAt", "asc")
+      );
     } else if (type === "collaboratable" && user) {
       q = query(
         collectionRef,
-        where("collaborators", "array-contains", user?.uid)
+        where("collaborators", "array-contains", user?.uid),
+        orderBy("createdAt", "asc")
       );
     } else if (type === "viewable" && user) {
-      q = query(collectionRef, where("viewers", "array-contains", user?.uid));
+      q = query(
+        collectionRef,
+        where("viewers", "array-contains", user?.uid),
+        orderBy("createdAt", "asc")
+      );
     } else if (type === "public") {
-      q = query(collectionRef, where("public", "==", true));
+      q = query(
+        collectionRef,
+        where("public", "==", true),
+        orderBy("createdAt", "asc")
+      );
     } else {
       return;
     }

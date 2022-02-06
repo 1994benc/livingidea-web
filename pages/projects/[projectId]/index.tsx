@@ -8,6 +8,7 @@ import useProject from "../../../services/project/useProject";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { LastUpdatedComponent } from "../../../components/time/LastUpdatedComponent";
+import { motion } from "framer-motion";
 dayjs.extend(relativeTime);
 
 const debouncedSetProject = _.debounce(setProject, 1000);
@@ -29,7 +30,15 @@ function ProjectContent(props: { project: ProjectModel }) {
         lastUpdatedDate={lastUpdatedDate}
         setLoading={setWaitingToBeSaved}
       ></LastUpdatedComponent>
-      <div className="standard-header">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        className="standard-header"
+      >
         <input
           className="font-bold minimal-input"
           type="text"
@@ -46,9 +55,16 @@ function ProjectContent(props: { project: ProjectModel }) {
             await debouncedSetProject(newProject);
           }}
         />
-      </div>
+      </motion.div>
 
-      <div>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+      >
         <textarea
           className="minimal-input"
           placeholder="Description"
@@ -64,7 +80,7 @@ function ProjectContent(props: { project: ProjectModel }) {
             await debouncedSetProject(newProject);
           }}
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
