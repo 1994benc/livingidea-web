@@ -30,12 +30,12 @@ service cloud.firestore {
 
     match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId} {
       allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;
-      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || (request.auth.uid == recordCreatorId && getProject(projectId).acceptingContributions == true);
     }
 
     match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId}/records/{recordId} {
       allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;
-      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || (request.auth.uid == recordCreatorId && getProject(projectId).acceptingContributions == true);
     }
   }
 }
