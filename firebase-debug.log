@@ -3945,3 +3945,128 @@ INFO: Detected non-HTTP/2 connection.
 [debug] [2022-02-06T16:23:44.214Z] Feb 06, 2022 4:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
  {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:14.226Z] Feb 06, 2022 4:24:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:15.294Z] Feb 06, 2022 4:24:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:15.306Z] Feb 06, 2022 4:24:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:17.248Z] Feb 06, 2022 4:24:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:17.255Z] Feb 06, 2022 4:24:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:18.005Z] Feb 06, 2022 4:24:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:18.015Z] Feb 06, 2022 4:24:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:23.261Z] Feb 06, 2022 4:24:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:24:23.279Z] Feb 06, 2022 4:24:23 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:24:23 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose\nINFO: channel closed\n"}}
+[debug] [2022-02-06T16:25:07.373Z] Feb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:25:07.380Z] Feb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Feb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nFeb 06, 2022 4:25:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:26:07.405Z] Feb 06, 2022 4:26:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:26:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:27:07.426Z] Feb 06, 2022 4:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:27:17.618Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      \n      \n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:27:17.622Z] Feb 06, 2022 4:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:27:17.687Z] Feb 06, 2022 4:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:27:17.732Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"281"}
+[warn] ⚠  firestore.rules:24:5 - ERROR The 'match' body must contain at least one declaration. 
+[info] ✔  firestore: Rules updated. 
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:28:00.682Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n      allow create: if request.auth.uid == getProject(projectId).owner;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:28:00.687Z] Feb 06, 2022 4:28:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:28:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:28:00.739Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[debug] [2022-02-06T16:28:07.446Z] Feb 06, 2022 4:28:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:28:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:28:17.606Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:28:17.607Z] Feb 06, 2022 4:28:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:28:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:28:17.627Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:28:39.766Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/elements/{elementId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:28:39.770Z] Feb 06, 2022 4:28:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:28:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:28:39.798Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:28:59.580Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-items/{itemId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:28:59.583Z] Feb 06, 2022 4:28:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:28:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:28:59.601Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[debug] [2022-02-06T16:29:07.463Z] Feb 06, 2022 4:29:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:29:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:30:07.494Z] Feb 06, 2022 4:30:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:30:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:31:07.515Z] Feb 06, 2022 4:31:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:31:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:31:16.568Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-items/{itemId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-records/{recordCreatorId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:31:16.571Z] Feb 06, 2022 4:31:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:31:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:31:16.602Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[debug] [2022-02-06T16:32:07.532Z] Feb 06, 2022 4:32:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:32:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:33:07.551Z] Feb 06, 2022 4:33:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:33:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:34:07.574Z] Feb 06, 2022 4:34:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:34:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2022-02-06T16:34:42.163Z] >>> HTTP REQUEST PUT http://127.0.0.1:8080/emulator/v1/projects/livingidea-d2448:securityRules  
+ {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n\n    function getProject(projectId) {\n      return get(/databases/$(database)/documents/projects/$(projectId)).data;\n    }\n    \n    match /projects/{projectId} {\n      // owner - allow all\n      // viewers - can read\n      // editors - can read and write, but not create new\n      allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;\n      allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;\n      allow create: if request.auth.uid == request.resource.data.owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-items/{itemId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;\n    }\n\n    match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId}/records/{recordId} {\n      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;\n      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;\n    }\n  }\n}"}]}}
+[debug] [2022-02-06T16:34:42.166Z] Feb 06, 2022 4:34:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:34:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2022-02-06T16:34:42.204Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  firestore: Rules updated. 
+[debug] [2022-02-06T16:35:07.590Z] Feb 06, 2022 4:35:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 4:35:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}

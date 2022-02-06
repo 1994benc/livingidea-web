@@ -4,6 +4,10 @@ service cloud.firestore {
     match /{document=**} {
       allow read, write: if false;
     }
+
+    function getProject(projectId) {
+      return get(/databases/$(database)/documents/projects/$(projectId)).data;
+    }
     
     match /projects/{projectId} {
       // owner - allow all
@@ -12,6 +16,26 @@ service cloud.firestore {
       allow read: if request.auth.uid in resource.data.editors || request.auth.uid in resource.data.viewers || resource.data.isPublic == true || resource.data.owner == request.auth.uid;
       allow update, delete: if request.auth.uid in resource.data.editors || request.auth.uid == resource.data.owner;
       allow create: if request.auth.uid == request.resource.data.owner;
+    }
+
+    match /projects/{projectId}/pages/{pageId} {
+      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;
+    }
+
+    match /projects/{projectId}/pages/{pageId}/page-items/{itemId} {
+      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner;
+    }
+
+    match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId} {
+      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;
+    }
+
+    match /projects/{projectId}/pages/{pageId}/page-record-contributors/{recordCreatorId}/records/{recordId} {
+      allow read: if request.auth.uid in getProject(projectId).editors || request.auth.uid in getProject(projectId).viewers || getProject(projectId).isPublic == true || getProject(projectId).owner == request.auth.uid || request.auth.uid == recordCreatorId;
+      allow write: if request.auth.uid in getProject(projectId).editors || request.auth.uid == getProject(projectId).owner || request.auth.uid == recordCreatorId;
     }
   }
 }
