@@ -8,12 +8,28 @@ import ProjectModel from "../../services/project/ProjectModel";
 import { v4 } from "uuid";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { getAuth } from "firebase/auth";
+import { useRouter } from "next/router";
 
 export default function NavBar() {
   const [user] = useAuthState(getAuth());
+  const router = useRouter();
   const addNewProject = async () => {
     if (!user) return;
-    await setProject(new ProjectModel(v4(), "Untitled", user.uid,[], [], false, new Date(), new Date(), ""));
+    const newProjectId = v4();
+    await setProject(
+      new ProjectModel(
+        newProjectId,
+        "Untitled",
+        user.uid,
+        [],
+        [],
+        false,
+        new Date(),
+        new Date(),
+        ""
+      )
+    );
+    router.push(`/projects/${newProjectId}`);
   };
   return (
     <div className="flex w-full items-center relative justify-between bg-black text-white px-3 pb-2 pt-3">

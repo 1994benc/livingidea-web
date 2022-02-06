@@ -31,11 +31,10 @@ export default function MyOwnProjects() {
                 animate={{
                   opacity: 1,
                 }}
-                transition={{
-                  type: "spring",
-                  stiffness: 100,
-                }}
                 className="card"
+                whileTap={{
+                  scale: 0.8,
+                }}
               >
                 <div className="font-bold mb-2 text-living-blue">
                   {project.name}
