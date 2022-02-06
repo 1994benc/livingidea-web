@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-btn {
+  @apply bg-living-blue hover:bg-black transition-all text-white font-bold py-1 px-6 rounded-full flex items-center gap-2;
+}
+
+.icon-btn {
+  @apply bg-transparent hover:bg-living-blue transition-all text-white py-1 px-4 rounded-full flex items-center gap-2;
+}

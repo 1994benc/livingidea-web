@@ -1,0 +1,106 @@
+[debug] [2022-02-06T02:13:05.873Z] ----------------------------------------------------------------------
+[debug] [2022-02-06T02:13:05.873Z] Command:       /Users/benchomsang/.nvm/versions/node/v17.2.0/bin/node /Users/benchomsang/.nvm/versions/node/v17.2.0/bin/firebase emulators:start
+[debug] [2022-02-06T02:13:05.874Z] CLI Version:   10.0.1
+[debug] [2022-02-06T02:13:05.874Z] Platform:      darwin
+[debug] [2022-02-06T02:13:05.874Z] Node Version:  v17.2.0
+[debug] [2022-02-06T02:13:05.875Z] Time:          Sun Feb 06 2022 02:13:05 GMT+0000 (Greenwich Mean Time)
+[debug] [2022-02-06T02:13:05.875Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-06T02:13:05.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-06T02:13:05.897Z] > authorizing via signed-in user (1994benc@gmail.com)
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub, storage"}}
+[debug] [2022-02-06T02:13:05.904Z] [hub] writing locator at /var/folders/q_/xhgpxbxj68l374ck0cgcz62w0000gn/T/hub-livingidea-d2448.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "16" doesn't match your global version "17" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"17\""}}
+[debug] [2022-02-06T02:13:05.911Z] defaultcredentials: writing to file /Users/benchomsang/.config/firebase/1994benc_gmail_com_application_default_credentials.json
+[debug] [2022-02-06T02:13:05.913Z] Setting GAC to /Users/benchomsang/.config/firebase/1994benc_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/benchomsang/.config/firebase/1994benc_gmail_com_application_default_credentials.json"}}
+[debug] [2022-02-06T02:13:05.914Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/livingidea-d2448/adminSdkConfig [none]
+[debug] [2022-02-06T02:13:06.173Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/livingidea-d2448/adminSdkConfig 200
+[debug] [2022-02-06T02:13:06.173Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/livingidea-d2448/adminSdkConfig {"projectId":"livingidea-d2448","storageBucket":"livingidea-d2448.appspot.com","locationId":"europe-west"}
+[debug] [2022-02-06T02:13:06.201Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-02-06T02:13:06.201Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-02-06T02:13:06.201Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/benchomsang/.cache/firebase/emulators/cloud-firestore-emulator-v1.13.1.jar","--host","127.0.0.1","--port",8080,"--rules","/Users/benchomsang/Devs/livingidea/firestore.rules","--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/benchomsang/.cache/firebase/emulators/cloud-firestore-emulator-v1.13.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--rules\",\"/Users/benchomsang/Devs/livingidea/firestore.rules\",\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2022-02-06T02:13:06.623Z] Feb 06, 2022 2:13:06 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:58345
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Feb 06, 2022 2:13:06 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:58345\n"}}
+[debug] [2022-02-06T02:13:06.633Z] API endpoint: http://127.0.0.1 {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://127.0.0.1"}}
+[debug] [2022-02-06T02:13:06.633Z] :8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":":8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nDev App Server is now running.\n\n"}}
+[debug] [2022-02-06T02:13:07.656Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-02-06T02:13:07.656Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-02-06T02:13:07.656Z] Starting Pub/Sub Emulator with command {"binary":"/Users/benchomsang/.cache/firebase/emulators/pubsub-emulator-0.1.0/pubsub-emulator/bin/cloud-pubsub-emulator","args":["--host=127.0.0.1","--port=8085"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"/Users/benchomsang/.cache/firebase/emulators/pubsub-emulator-0.1.0/pubsub-emulator/bin/cloud-pubsub-emulator\",\"args\":[\"--host=127.0.0.1\",\"--port=8085\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2022-02-06T02:13:07.722Z] This is the Google Pub/Sub fake.
+Implementation may be incomplete or differ from the real system.
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"This is the Google Pub/Sub fake.\nImplementation may be incomplete or differ from the real system.\n"}}
+[debug] [2022-02-06T02:13:07.746Z] Feb 06, 2022 2:13:07 AM com.google.cloud.pubsub.testing.v1.Main main
+INFO: IAM integration is disabled. IAM policy methods and ACL checks are not supported
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"Feb 06, 2022 2:13:07 AM com.google.cloud.pubsub.testing.v1.Main main\nINFO: IAM integration is disabled. IAM policy methods and ACL checks are not supported\n"}}
+[debug] [2022-02-06T02:13:07.907Z] Feb 06, 2022 2:13:07 AM io.gapi.emulators.netty.NettyUtil applyJava7LongHostnameWorkaround
+INFO: Unable to apply Java 7 long hostname workaround.
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"Feb 06, 2022 2:13:07 AM io.gapi.emulators.netty.NettyUtil applyJava7LongHostnameWorkaround\nINFO: Unable to apply Java 7 long hostname workaround.\n"}}
+[debug] [2022-02-06T02:13:07.942Z] Feb 06, 2022 2:13:07 AM com.google.cloud.pubsub.testing.v1.Main main
+INFO: Server started, listening on 8085
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"Feb 06, 2022 2:13:07 AM com.google.cloud.pubsub.testing.v1.Main main\nINFO: Server started, listening on 8085\n"}}
+[debug] [2022-02-06T02:13:08.167Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-02-06T02:13:08.205Z] Feb 06, 2022 2:13:08 AM io.gapi.emulators.grpc.GrpcServer$3 operationComplete
+INFO: Adding handler(s) to newly registered Channel.
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"Feb 06, 2022 2:13:08 AM io.gapi.emulators.grpc.GrpcServer$3 operationComplete\nINFO: Adding handler(s) to newly registered Channel.\n"}}
+[debug] [2022-02-06T02:13:08.258Z] Temp file directory for storage emulator: /var/folders/q_/xhgpxbxj68l374ck0cgcz62w0000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/q_/xhgpxbxj68l374ck0cgcz62w0000gn/T/firebase/storage/blobs"}}
+[debug] [2022-02-06T02:13:08.558Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-02-06T02:13:08.558Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-02-06T02:13:08.558Z] Starting Emulator UI with command {"binary":"node","args":["/Users/benchomsang/.cache/firebase/emulators/ui-v1.6.4/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/benchomsang/.cache/firebase/emulators/ui-v1.6.4/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-02-06T02:13:08.614Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "/Users/benchomsang/Devs/livingidea/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/benchomsang/Devs/livingidea/functions\" for Cloud Functions..."}}
+[debug] [2022-02-06T02:13:08.820Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2022-02-06T02:13:08.820Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2022-02-06T02:13:08.820Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2022-02-06T02:13:08.821Z] [worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: Assigning socketPath: /var/folders/q_/xhgpxbxj68l374ck0cgcz62w0000gn/T/fire_emu_22596.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: Assigning socketPath: /var/folders/q_/xhgpxbxj68l374ck0cgcz62w0000gn/T/fire_emu_22596.sock"}}
+[debug] [2022-02-06T02:13:08.821Z] [worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: BUSY"}}
+[debug] [2022-02-06T02:13:08.885Z] [runtime-status] [22596] Functions runtime initialized. {"cwd":"/Users/benchomsang/Devs/livingidea/functions","node_version":"17.2.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Functions runtime initialized. {\"cwd\":\"/Users/benchomsang/Devs/livingidea/functions\",\"node_version\":\"17.2.0\"}"}}
+[debug] [2022-02-06T02:13:08.885Z] [runtime-status] [22596] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Disabled runtime features: undefined"}}
+[debug] [2022-02-06T02:13:08.886Z] [runtime-status] [22596] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.889Z] [runtime-status] [22596] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.17.1","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.17.1\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.890Z] [runtime-status] [22596] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-02-06T02:13:08.890Z] [runtime-status] [22596] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.17.1","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.17.1\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.917Z] [runtime-status] [22596] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-02-06T02:13:08.917Z] [runtime-status] [22596] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.17.1","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.17.1\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-02-06T02:13:08.917Z] [runtime-status] [22596] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.17.1","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.17.1\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.918Z] [runtime-status] [22596] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.918Z] [runtime-status] [22596] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.17.1","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.17.1\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-02-06T02:13:08.919Z] [runtime-status] [22596] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [22596] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"/Users/benchomsang/Devs/livingidea/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[info] ✔  functions[us-central1-helloWorld]: http function initialized (http://127.0.0.1:5001/livingidea-d2448/us-central1/helloWorld). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/livingidea-d2448/us-central1/helloWorld)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://localhost:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://localhost:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://localhost:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8085 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://localhost:4000/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-02-06T02:13:08.922Z] [worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-d0b51ee5-eaa8-4a8f-8ab5-0b6b50c2e93b]: IDLE"}}
