@@ -6,6 +6,7 @@ import ProjectModel from './ProjectModel';
 export default async function setProject(data: ProjectModel): Promise<boolean> {
     try {
         const docRef = doc(getFirestore(), 'projects/' + data.id);
+        data.updatedAt = new Date();
         await setDoc(docRef, data.toJSON(), { merge: true });
         return true;
     } catch (error) {

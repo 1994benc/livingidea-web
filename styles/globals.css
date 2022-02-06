@@ -31,9 +31,9 @@
 }
 
 .input {
-  @apply transition-all border-living-lightblue border-solid border rounded-full px-4 py-1 focus:outline-living-blue;
+  @apply transition-all w-full border-living-lightblue border-solid border rounded-full px-4 py-1 focus:outline-living-blue;
 }
 
 .minimal-input {
-  @apply transition-all outline-transparent focus:outline-transparent;
+  @apply transition-all w-full outline-transparent focus:outline-transparent;
 }
