@@ -4,6 +4,7 @@ import { getAuth, signOut } from "firebase/auth";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useAuthState } from "react-firebase-hooks/auth";
+import Avatar from "../images/Avatar";
 
 export function AccountDropdown() {
   const [user, loading, error] = useAuthState(getAuth());
@@ -12,7 +13,8 @@ export function AccountDropdown() {
     <div className="relative">
       <Menu>
         <Menu.Button className={"icon-btn"}> 
-          <UserIcon className="w-6 h-6" />
+          {!user?.photoURL && <UserIcon className="w-6 h-6" />}
+          {user?.photoURL && <Avatar small={true} imageUrl={user?.photoURL} />}
         </Menu.Button>
         <Transition
           enter="transition duration-100 ease-out"

@@ -20,10 +20,12 @@ export default function useProject(id: string) {
             });
 
             setData(data);
-            return () => {
-                unsub();
-            };
+           
         });
+
+        return () => {
+            unsub();
+        };
     }, [id]);
 
     return data;

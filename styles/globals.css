@@ -7,5 +7,33 @@
 }
 
 .icon-btn {
-  @apply bg-transparent hover:bg-living-blue transition-all text-white py-1 px-4 rounded-full flex items-center gap-2;
+  @apply bg-transparent font-bold text-living-lightblue  hover:bg-living-blue transition-all py-1 px-4 rounded-full flex items-center gap-2;
+}
+
+.light-icon-btn {
+  @apply bg-transparent text-living-blue font-bold hover:bg-living-lightblue transition-all py-1 px-4 rounded-full flex items-center gap-2;
+}
+
+.minimal-btn {
+  @apply bg-transparent border border-living-lightblue text-living-blue font-bold hover:bg-living-lightblue transition-all py-1 px-4 rounded-full flex items-center gap-2;
+}
+
+.h1 {
+  @apply text-3xl font-bold;
+}
+
+.standard-header {
+  @apply text-xl font-bold;
+}
+
+.card {
+  @apply border cursor-pointer transition-all hover:bg-living-lightblue border-living-lightgray rounded  px-6 py-5;
+}
+
+.input {
+  @apply transition-all border-living-lightblue border-solid border rounded-full px-4 py-1 focus:outline-living-blue;
+}
+
+.minimal-input {
+  @apply transition-all outline-transparent focus:outline-transparent;
 }
